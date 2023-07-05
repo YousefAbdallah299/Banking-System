@@ -1,2 +1,3 @@
 # Banking-System
-The banking application allows to create and manage bank accounts for clients.  It supports Basic Bank Accounts and Savings Bank Accounts types with specific  data fields and operations.
+The banking application enables bank clients to create and manage bank accounts. There are two types of accounts: basic BankAccount and SavingsBankAccount. The basic BankAccount includes account ID and balance, with methods for withdrawal and deposit. The SavingsBankAccount extends the basic account and adds a minimum balance requirement and minimum deposit amount. The Client class stores client information and holds a reference to their bank account. The main BankingApplication class presents a menu for performing operations on bank accounts, maintaining lists of accounts and clients.
+
